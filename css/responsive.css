@@ -1,0 +1,55 @@
+/* Styles for various screen sizes */
+@media screen and (min-width: 480px) {
+  
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+  
+  #gallery li {
+	background-color: #f5f5f5;
+	list-style: none;
+	float: left;
+	margin: 2.5%;
+	width: 28.33333%;
+  }
+
+   #gallery li a p {
+	 color: #bdc3c7;
+	 font-size: 0.75em;
+	 margin: 0;
+	 padding: 5%;
+  }
+
+  #gallery li:nth-child(3n+1) {
+	clear: left;
+  }
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
